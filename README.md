@@ -100,13 +100,11 @@ Please note the original dataset is not balanced.  99% of the applications are c
 
 __Models ranked on "High Risk" Results:__
 
-Model  | Accuracy | Precision | Sensitivity | F1
-------------- | ------------- | ------------- | ------------- 
-EasyEnsembleClassifer | 93%  | 7% | 91% | 14%
-Random Forest | 79%  | 4% | 67% | 7%
-SMOTE | 66%  | 1% | 63% | 2%
-Random Sample | 65%  | 1% | 71% | 2%
-SMOTEENN | 64%  | 1% | 72% | 2%
-Cluster Centroid | 54%  | 1% | 69% | 1%
-
-
+| Model  | Accuracy  | Precision  | Sensitivity  | F1  |
+|---|:-:|:-:|:-:|:-:|
+| Easy Ensemble Classifer | 91% | 7%  | 91%  | 14%  |
+| Random Forest  | 79% | 4%  | 67%  | 7%  |
+| SMOTE  | 66% | 1% | 63%  | 2%  |
+| Random Sample  | 65% | 1%  | 71%  | 2%  |
+| SMOTEENN  | 64% | 1% | 72%  |  2% |
+| Cluster Centroid  | 54% | 1% | 69% |  1% |
