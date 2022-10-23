@@ -47,44 +47,43 @@ The analysis involved evaluating the dataset provided with six different machine
 * The accuracy score shows the difference between the predicted and actual values.
 * The confusion matrix shows the predicted values vs the actual values.
 * The imbalance classification report calculate scores for precision, sensitivity (recall) and f1 (harmonlic mean) of the model, using data from the confuxion matrix to determine the quality of the model.
-* 
+ 
 ## 1. Resample: Naive Random Oversampling
-
 ![random over rpt](images/RandomOver.png)
 
-* Accuracy Score: 65% of the test samples were predicted correctly.
+* Accuracy Score: 66% of the test samples were predicted correctly.
 * Precision: High/Low risk = .01/1.00
 * Sensitivity: High/Low risk = .71/.60
-## 2. Resample: SMOTE Oversampling
 
+## 2. Resample: SMOTE Oversampling
 ![smote rpt](images/smote.png)
 
 * Accuracy Score: 66% of the test samples were predicted correctly.
 * Precision: High/Low risk = .01/1.00
 * Sensitivity: High/Low risk = .63/.69
-## 3. Resample: Undersampling with Cluster Centroid
 
+## 3. Resample: Undersampling with Cluster Centroid
 ![cluster centroid rpt](images/ClusterCentroid.png)
 
 * Accuracy Score: 54% of the test samples were predicted correctly.
 * Precision: High/Low risk = .01/1.00
 * Sensitivity: High/Low risk = .69/.40
-## 4. Resample: Combination Sampling with SMOTEENN
 
+## 4. Resample: Combination Sampling with SMOTEENN
 ![smoteenn rpt](images/smoteenn.png)
 
 * Accuracy Score: 64% of the test samples were predicted correctly.
 * Precision: High/Low risk = .01/1.00
 * Sensitivity: High/Low risk = .72/.57
-## 5. Ensemble: Balanced Random Forest Classifier
 
+## 5. Ensemble: Balanced Random Forest Classifier
 ![random forest rpt](images/random-forest.png)
 
 * Accuracy Score: 79% of the test samples were predicted correctly.
 * Precision: High/Low risk = .04/1.00
 * Sensitivity: High/Low risk = .67/.91
-## 6. Ensemble: Easy Ensemble Classifier with Adaptive Boosting
 
+## 6. Ensemble: Easy Ensemble Classifier with Adaptive Boosting
 ![adaptive boosting rpt](images/ensembler.png)
 
 * Accuracy Score: 93% of the test samples were predicted correctly.
